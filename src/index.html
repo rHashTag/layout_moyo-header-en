@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
+    <header class="header">
       <a href="#">
         <img
           class="logo"
@@ -23,7 +23,7 @@
       <nav class="nav">
         <ul class="nav__list">
           <il class="nav__item">
-            <a class="nav__link" href="#">APPLE</a>
+            <a class="nav__link is-active" href="#">APPLE</a>
           </il>
           <il class="nav__item">
             <a class="nav__link" href="#">SAMSUNG</a>
@@ -32,7 +32,13 @@
             <a class="nav__link" href="#">SMARTPHONES</a>
           </il>
           <il class="nav__item">
-            <a class="nav__link" href="#">LAPTOPS & COMPUTERS</a>
+            <a
+              class="nav__link"
+              data-qa="hover"
+              href="#"
+            >
+            LAPTOPS & COMPUTERS
+            </a>
           </il>
           <il class="nav__item">
             <a class="nav__link" href="#">GADGETS</a>
